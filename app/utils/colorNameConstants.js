@@ -1,7 +1,7 @@
 export const MajorColorNames = ["WHITE", "RED", "BLACK", "YELLOW", "VIOLET"];
 export const MinorColorNames = ["BLUE", "ORANGE", "GREEN", "BROWN", "SLATE"];
 
-class ColorPair {
+export class ColorPair {
   constructor() {
     this.majorColor;
     this.minorColor;
@@ -11,5 +11,3 @@ class ColorPair {
 ColorPair.prototype.toString = function () {
   return `MajorColor:${this.majorColor},MinorColor:${this.minorColor}`;
 };
-
-export { ColorPair };

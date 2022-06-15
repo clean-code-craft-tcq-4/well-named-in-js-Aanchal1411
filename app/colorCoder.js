@@ -1,6 +1,6 @@
-import { getColorPairFromNumber } from "./utils/colorPair";
-import { getNumberFromColorPair } from "./utils/pairNumber";
-import { ColorPair } from "./utils/colorNameConstants";
+import { getColorPairFromNumber } from "./utils/colorPair.js";
+import { getNumberFromColorPair } from "./utils/pairNumber.js";
+import { ColorPair } from "./utils/colorNameConstants.js";
 
 function checkColorPairForNumbers(pairNumber, expectedMajor, expectedMinor) {
   let testPair = getColorPairFromNumber(pairNumber);

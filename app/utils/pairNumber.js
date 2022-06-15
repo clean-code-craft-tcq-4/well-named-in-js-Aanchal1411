@@ -1,4 +1,4 @@
-import { MajorColorNames, MinorColorNames } from "./colorNameConstants";
+import { MajorColorNames, MinorColorNames } from "./colorNameConstants.js";
 function getNumberFromColorPair(pair)
         {
         let majorIndex = -1;
