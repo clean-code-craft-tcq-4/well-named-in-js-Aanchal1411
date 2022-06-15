@@ -1,5 +1,5 @@
-import { MajorColorNames, MinorColorNames } from "./colorNames.js";
-function getPairNumberFromColor(pair)
+import { MajorColorNames, MinorColorNames } from "./colorNameConstants";
+function getNumberFromColorPair(pair)
         {
         let majorIndex = -1;
         for (let i = 0; i < MajorColorNames.length; i++)
@@ -29,4 +29,4 @@ function getPairNumberFromColor(pair)
         return (majorIndex * MinorColorNames.length) + (minorIndex + 1);
 }
      
-export { getPairNumberFromColor };
+export { getNumberFromColorPair };
